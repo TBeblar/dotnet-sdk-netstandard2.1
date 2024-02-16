@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <VersionPrefix>8.0.5</VersionPrefix>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>GlobalPayments.Api</AssemblyName>
     <PackageId>GlobalPayments.Api</PackageId>
     <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
@@ -17,7 +17,7 @@
     <LangVersion>7</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CoreCompat.System.Drawing" Version="1.0.0-beta006" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
     <PackageReference Include="System.Net.Requests" Version="4.3.0" />
     <PackageReference Include="System.Net.Security" Version="4.3.2" />
     <PackageReference Include="System.Net.Sockets" Version="4.3.0" />
