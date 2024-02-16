@@ -27,7 +27,7 @@ namespace GlobalPayments.Api.Terminals.PAX {
             }
         }
 
-        internal PaxController(ITerminalConfiguration settings) : base(settings) {
+        public PaxController(ITerminalConfiguration settings) : base(settings) {
         }
 
         #region overrides

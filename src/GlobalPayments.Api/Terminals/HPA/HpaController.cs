@@ -31,7 +31,7 @@ namespace GlobalPayments.Api.Terminals.HPA {
             }
         }
 
-        internal HpaController(ITerminalConfiguration settings) : base(settings) {
+        public HpaController(ITerminalConfiguration settings) : base(settings) {
         }
 
         internal T SendMessage<T>(string message, params string[] messageIds) where T : SipBaseResponse {

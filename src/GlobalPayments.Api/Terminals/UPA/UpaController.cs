@@ -30,7 +30,7 @@ namespace GlobalPayments.Api.Terminals.UPA {
             }
         }
 
-        internal UpaController(ITerminalConfiguration settings) : base(settings) { }
+        public UpaController(ITerminalConfiguration settings) : base(settings) { }
 
         #region overrides
         internal override ITerminalResponse ProcessTransaction(TerminalAuthBuilder builder) {

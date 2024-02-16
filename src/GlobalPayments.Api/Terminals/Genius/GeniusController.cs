@@ -30,7 +30,7 @@ namespace GlobalPayments.Api.Terminals.Genius
             }
         }
 
-        internal GeniusController(ConnectionConfig settings) : base(settings)
+        public GeniusController(ConnectionConfig settings) : base(settings)
         {
             if (settings.ConnectionMode == ConnectionModes.MEET_IN_THE_CLOUD)
             {
