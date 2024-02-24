@@ -53,6 +53,7 @@ namespace GlobalPayments.Api.Gateways {
             Timeout = gpApiConfig.Timeout;
             RequestLogger = gpApiConfig.RequestLogger;
             WebProxy = gpApiConfig.WebProxy;
+            ServiceUrl = gpApiConfig.ServiceUrl;
 
             // Set required api version header
             Headers["X-GP-Version"] = "2021-03-22";
